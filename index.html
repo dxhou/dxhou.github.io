@@ -30,7 +30,7 @@
     <meta name="theme-color" content="#1b67e0">
     <meta name="generator" content="Hydejack v7.4.1" />
     <!-- <link type="application/atom+xml" rel="alternate" href="https://buzz-beater.github.io/feed.xml" -->
-        <!-- title="Baoxiong Jia @ UCLA" /> -->
+    <!-- title="Baoxiong Jia @ UCLA" /> -->
     <link rel="alternate" href="https://xinminghou2002.github.io/" hreflang="en">
     <!-- <link rel="shortcut icon" href="/assets/icons/favicon.ico"> -->
     <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -40,8 +40,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
-    <link href="/assets/icons/icon.png"
-    rel="shortcut icon" type="image/x-icon" />
+    <link href="/assets/icons/icon.png" rel="shortcut icon" type="image/x-icon" />
 
     <!-- <link id="_katexJS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js">
     <link id="_katexCSS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css"> -->
@@ -414,6 +413,12 @@
         .sidebar a {
             color: #fff;
             border-bottom-color: rgba(255, 255, 255, 0.2)
+        }
+
+        @media (max-width: 767px) {
+            .sidebar {
+                display: none;
+            }
         }
 
         hy-drawer {
@@ -861,54 +866,67 @@
 
         .icon-mail {
             background: url('/assets/icons/mail.png') no-repeat center center;
-            width: 40px; /* adjust as needed */
-            height: 40px; /* adjust as needed */
+            width: 40px;
+            /* adjust as needed */
+            height: 40px;
+            /* adjust as needed */
             background-size: cover;
             display: inline-block;
             vertical-align: middle;
             /* any additional styling you want */
-          }
+        }
 
-          .icon-cv {
+        .icon-cv {
             background: url('/assets/icons/cv.png') no-repeat center center;
-            width: 35px; /* adjust as needed */
-            height: 35px; /* adjust as needed */
+            width: 35px;
+            /* adjust as needed */
+            height: 35px;
+            /* adjust as needed */
             background-size: cover;
             display: inline-block;
             vertical-align: middle;
             /* any additional styling you want */
-          }
-          .icon-github {
-            background: url('/assets/icons/github.png') no-repeat center center;
-            width: 40px; /* adjust as needed */
-            height: 40px; /* adjust as needed */
-            background-size: cover;
-            display: inline-block;
-            vertical-align: middle;
-            /* any additional styling you want */
-          }
+        }
 
-          .icon-twitter {
-            background: url('/assets/icons/twitter.png') no-repeat center center;
-            width: 40px; /* adjust as needed */
-            height: 40px; /* adjust as needed */
+        .icon-github {
+            background: url('/assets/icons/github.png') no-repeat center center;
+            width: 40px;
+            /* adjust as needed */
+            height: 40px;
+            /* adjust as needed */
             background-size: cover;
             display: inline-block;
             vertical-align: middle;
             /* any additional styling you want */
-          } 
-          .icon-location {
-            background: url('/assets/icons/location.png') no-repeat center center;
-            width: 40px; /* adjust as needed */
-            height: 40px; /* adjust as needed */
+        }
+
+        .icon-twitter {
+            background: url('/assets/icons/twitter.png') no-repeat center center;
+            width: 40px;
+            /* adjust as needed */
+            height: 40px;
+            /* adjust as needed */
+            background-size: cover;
+            display: inline-block;
+            vertical-align: middle;
             /* any additional styling you want */
-          }   
-          .info {
+        }
+
+        .icon-location {
+            background: url('/assets/icons/location.png') no-repeat center center;
+            width: 40px;
+            /* adjust as needed */
+            height: 40px;
+            /* adjust as needed */
+            /* any additional styling you want */
+        }
+
+        .info {
             font-family: 'Times New Roman', Times, serif;
             display: flex;
             justify-content: center;
             align-items: center;
-          } 
+        }
     </style><!--<![endif]-->
 
 <body>
@@ -924,34 +942,37 @@
             <article class="page vcard h-card" role="article" vocab="http://schema.org/" typeof="Person">
                 <meta property="mainEntityOfPage" content="https://xinminghou2002.github.io/" />
                 <div class="about-paragraph" style="text-align: justify">
-                    <avatarimg> <img src="/assets/img/selfies/selfie2_resize.jpg" class="avatar photo u-photo"
-                            alt="Hi!"
+                    <avatarimg> <img src="/assets/img/selfies/selfie2_resize.jpg" class="avatar photo u-photo" alt="Hi!"
                             srcset="/assets/img/selfies/selfie2_resize.jpg 1x,/assets/img/selfies/selfie2_resize.jpg 2x"
                             property="image" /> </avatarimg>
                     <summary>
-                    <!-- ================================================================================================================================================================== -->
-                        <p class="note p-note" property="description"> <h1>Hi! I'm Xinming,</h1>
-                            <h3>
-                            I'm a second year undergraduate student studying Artificial Intelligence at 
-                            Gaoling School of Artificial Intelligence (<a href="http://ai.ruc.edu.cn/english/index.htm">GSAI</a>), Renmin University of China (RUC), Beijing. 
-                            </h3>
-                            I’m currently working at <a
-                            href="http://aibox.ruc.edu.cn/">RUC AI Box</a> advised by <a
+                        <!-- ================================================================================================================================================================== -->
+                        <p class="note p-note" property="description">
+                        <h1><strong>Hi! I'm Xinming,</strong></h1>
+                        <h4>
+                            I'm a second year undergraduate student studying Artificial Intelligence at
+                            Gaoling School of Artificial Intelligence (<a
+                                href="http://ai.ruc.edu.cn/english/index.htm">GSAI</a>), Renmin University of China
+                            (RUC), Beijing.
+                        </h4>
+                        I’m currently working at <a href="http://aibox.ruc.edu.cn/">RUC AI Box</a> advised by <a
                             href="http://playbigdata.ruc.edu.cn/batmanfly/">Prof. Wayne Xin Zhao</a>.
-                            My research and study lie in the area of natural language processing and machine learning.
-                            In recent months, I have been deeply fascinated by and dedicated to the research on large language models, especially
-                            model Self-improvement and In-context Learning. 
-                            <br>
-                            My research goal is to develop intelligent agents that can fully autonomously tackle complex real-world
-                            problems, thereby freeing up our time and creativity to pursue what truly ignites our souls and spread more love and joy.
+                        My research and study lie in the area of natural language processing and machine learning.
+                        In recent months, I have been deeply fascinated by and dedicated to the research on large
+                        language models, especially
+                        model Self-improvement and In-context Learning.
+                        <br>
+                        My research goal is to develop intelligent agents that can fully autonomously tackle complex
+                        real-world
+                        problems, thereby freeing up our time and creativity to pursue what truly ignites our souls and
+                        spread more love and joy.
 
-                            <p class="info"> <span>
+                        <p class="info"> <span>
                                 <!-- <img src="/assets/icons/location.png">  -->
                                 <br>
-                                Info: <a href="sherman.hou@gmail.com">Email</a> / <a 
-                                href="/assets/cv.pdf">CV</a> / <a 
-                                href="https://twitter.com/XinmingHou">Twitter</a> / <a 
-                                href="https://github.com/xinminghou2002">GitHub</a>
+                                Info: <a href="sherman.hou@gmail.com">Email</a> / <a href="/assets/cv.pdf">CV</a> / <a
+                                    href="https://twitter.com/XinmingHou">Twitter</a> / <a
+                                    href="https://github.com/xinminghou2002">GitHub</a>
                             </span></p>
                     </summary>
                 </div>
@@ -997,24 +1018,23 @@
                         <p class=""><strong>Tech & Warmth ♡</strong>
                     </div>
                     <!-- <nav class="sidebar-nav heading" role="navigation"> <span class="sr-only">Navigation:</span> -->
-                        <!-- <ul> -->
-                            <!-- <li> <a id="_navigation" href="/publications/" class="sidebar-nav-item"> Publication </a> -->
-                            <!-- <li> <a href="/experience/" class="sidebar-nav-item"> Experience </a> -->
-                        <!-- </ul> -->
+                    <!-- <ul> -->
+                    <!-- <li> <a id="_navigation" href="/publications/" class="sidebar-nav-item"> Publication </a> -->
+                    <!-- <li> <a href="/experience/" class="sidebar-nav-item"> Experience </a> -->
+                    <!-- </ul> -->
                     <!-- </nav> -->
                     <div class="sidebar-social"> <span class="sr-only">Social:</span>
                         <ul>
                             <li> <a href="mailto:sherman.hou@gmail.com" title="Email" class="no-mark-external"> <span
                                         class="icon-mail"></span> <span class="sr-only">Email</span> </a>
-                            <li> <a href="/assets/cv.pdf" title="CV"
-                                class="no-mark-external"> <span class="icon-cv"></span> <span
-                                    class="sr-only">CV</span> </a>
-                            <li> <a href="https://github.com/xinminghou2002" title="GitHub" class="no-mark-external"> <span
-                                        class="icon-github"></span> <span class="sr-only">GitHub</span> </a>
-                            <!-- <li> <a href="https://scholar.google.com/citations?user=qIBUK6sAAAAJ&hl=en"
+                            <li> <a href="/assets/cv.pdf" title="CV" class="no-mark-external"> <span
+                                        class="icon-cv"></span> <span class="sr-only">CV</span> </a>
+                            <li> <a href="https://github.com/xinminghou2002" title="GitHub" class="no-mark-external">
+                                    <span class="icon-github"></span> <span class="sr-only">GitHub</span> </a>
+                                <!-- <li> <a href="https://scholar.google.com/citations?user=qIBUK6sAAAAJ&hl=en"
                                     title="Google Scholar" class="no-mark-external"> <span class="icon-google"></span> -->
-                            <li> <a href="https://twitter.com/XinmingHou"
-                                    title="Twitter" class="no-mark-external"> <span class="icon-twitter"></span>
+                            <li> <a href="https://twitter.com/XinmingHou" title="Twitter" class="no-mark-external">
+                                    <span class="icon-twitter"></span>
                                     <span class="sr-only">Twitter</span> </a>
 
                         </ul>
