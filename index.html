@@ -927,6 +927,28 @@
             justify-content: center;
             align-items: center;
         }
+
+
+                /* Default font size for larger screens */
+        p.info {
+            font-size: 16px;
+        }
+        
+        /* Adjust font size for smaller screens */
+        @media (max-width: 767px) {
+        p.info {
+            font-size: 14px;
+        }
+        }
+        
+        /* Adjust font size for even smaller screens */
+        @media (max-width: 320px) {
+        p.info {
+            font-size: 12px;
+        }
+        }
+
+
     </style><!--<![endif]-->
 
 <body>
@@ -947,7 +969,7 @@
                             property="image" /> </avatarimg>
                     <summary>
                         <!-- ================================================================================================================================================================== -->
-                        <h3>Hi! I'm Xinming,</h3>
+                        <h2>Hi! I'm Xinming,</h2>
                         <p><strong> a second year undergraduate student studying Artificial Intelligence at
                             Gaoling School of Artificial Intelligence (<a
                                 href="http://ai.ruc.edu.cn/english/index.htm">GSAI</a>), Renmin University of China
@@ -955,57 +977,25 @@
                         </strong>
                         </p>
 
-                        <p class="info" font-size: 60px> <span>
-                            <!-- <img src="/assets/icons/location.png">  -->
-                            <br>
-                            Info: <a href="mailto:sherman.hou@gmail.com">Email</a> / <a href="/assets/cv.pdf">CV</a> / <a
-                                href="https://twitter.com/XinmingHou">Twitter</a> / <a
-                                href="https://github.com/xinminghou2002">GitHub</a>
-                        </span></p>
 
-                        <h2 id="research-interests">Research Interests</h2>
-                        <p>My primary research and study lie in the area of natural language processing and machine learning.
-                            In recent months, I have been deeply fascinated by and dedicated to the research on large language models, especially
-                            model Self-improvement and In-context Learning.</p>
-                        <h2 id="research-experience">Research Experience</h2>
-                        <h3 id="research-on-contrastive-learning-for-personalized-product-searh">Renmin University of China </h3>
+                        <br>
+                        <p><u><strong>My Research Interests:</strong></u><strong> My primary research and study lie in the area of</strong> <strong>natural language processing</strong> <strong>and</strong> <strong>machine learning</strong>. In recent months, I have been deeply fascinated by and dedicated to the research on <strong>large language models</strong>, especially model <strong>Self-improvement</strong> and <strong>In-context Learning</strong>.</p>
+
+                        <p><u><strong>Research Goal:</strong></u> My research goal is to develop intelligent agents that can <strong>fully autonomously</strong> tackle <strong>complex</strong> <strong>real-world</strong> problems, thereby freeing up our time and creativity to pursue what truly ignites our souls and spread more love and joy.</p>
+
+                        <h2>Research Experience</h2>
+                        <td style="padding:20px;width:25%;vertical-align:middle"><img width="100" src="assets/img/ruc.png"></td>
+                        <h3>Renmin University of China </h3>
                         <p>
                             <span style="font-size: 10px;">
                               <span style="text-transform: uppercase; font-size: 10.91px;">
-                                R
-                              </span>
-                              ESEARCH 
-                              <span style="text-transform: uppercase; font-size: 10.91px;">
-                                A
-                              </span>
-                              SSISTANT AT 
-                              <a href="http://aibox.ruc.edu.cn/" style="color: blue;">
-                                <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  RUC
+                                Research Assistant at RUC AI BOX
                                 </span>
-                                 <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  AI B
-                                </span>
-                                OX
                               </a>
-                              , ADVISED BY 
                               <a href="https://scholar.google.com/citations?user=JNhNacoAAAAJ" style="color: blue;">
                                 <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  P
+                                    , Advised By Prof. Wayne Xin Zhao
                                 </span>
-                                 ROF. 
-                                <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  W
-                                </span>
-                                AYNE 
-                                <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  X
-                                </span>
-                                IN 
-                                <span style="text-transform: uppercase; font-size: 10.91px;">
-                                  Z
-                                </span>
-                                HAO
                               </a>
                             </span>
                           </p>
@@ -1030,10 +1020,20 @@
                         <ul>
                         <li>Proposed a pipeline-based framework utlizing pre-trained models for case law retrieval, including three modules of extracting feature sentences, computing matching matrices and classifying results.</li>
                         </ul> -->
-                        <h2 id="selected-honors-and-awards">Selected Honors and Awards</h2>
-                        <p><strong>Finalist</strong>, Mathematical Contest in Modeling (top 2%), 2023</p>
-                        <p><strong>National First Prize</strong>, National College Student Mathematical Modeling Competition (top 0.60%), 2022</p>
-                        <p><strong>1st place</strong>, RUC Group Competitive OJ Contest for Programming Course (1/22), 2022</p>
+                    <br>
+                    <h2 id="selected-honors-and-awards">Selected Honors and Awards</h2>
+                    <p><strong>Finalist</strong>, Mathematical Contest in Modeling (top 2%), 2023</p>
+                    <p><strong>National First Prize</strong>, National College Student Mathematical Modeling Competition (top 0.60%), 2022</p>
+                    <p><strong>1st place</strong>, RUC Group Competitive OJ Contest for Programming Course (1/22), 2022</p>
+                    
+                    <p class="info"> <span>
+                        <!-- <img src="/assets/icons/location.png">  -->
+                        <br>
+                        Info: <a href="mailto:sherman.hou@gmail.com">Email</a> / <a href="/assets/cv.pdf">CV</a> / <a
+                            href="https://twitter.com/XinmingHou">Twitter</a> / <a
+                            href="https://github.com/xinminghou2002">GitHub</a>
+                    </span></p>
+                    
                     </summary>
                 </div>
                 <!-- <div id="infopanel" class="columns">
