@@ -18,262 +18,116 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="Xinming Hou" />
-    <!-- <script
-        type="application/ld+json"> {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Baoxiong Jia"},"description":"Hello!","headline":"Baoxiong Jia @ UCLA","name":"Baoxiong Jia @ UCLA","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://buzz-beater.github.io/assets/icons/icon.png"},"name":"Baoxiong Jia"},"url":"https://buzz-beater.github.io/"}</script> -->
     <meta name="keywords" content="">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Xinming Hou">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="application-name" content="Xinming Hou">
-    <!-- <meta name="msapplication-config" content="/assets/ieconfig.xml"> -->
     <meta name="theme-color" content="#1b67e0">
     <meta name="generator" content="Hydejack v7.4.1" />
-    <!-- <link type="application/atom+xml" rel="alternate" href="https://buzz-beater.github.io/feed.xml" -->
-    <!-- title="Baoxiong Jia @ UCLA" /> -->
     <link rel="alternate" href="https://xmhou2002.github.io/" hreflang="en">
-    <!-- <link rel="shortcut icon" href="/assets/icons/favicon.ico"> -->
     <link rel="apple-touch-icon" href="/assets/icons/icon.png">
-    <!-- <link rel="manifest" href="/assets/manifest.json"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
-
     <link href="/assets/icons/icon.png" rel="shortcut icon" type="image/x-icon" />
-    <!-- <link id="_katexJS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js">
-    <link id="_katexCSS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css"> -->
-<!-- ================================================================================================================================================================== -->
-    <script> function stdOnEnd(n, e) { n.onload = function () { this.onerror = this.onload = null, e(null, n) }, n.onerror = function () { this.onerror = this.onload = null, e(new Error("Failed to load " + this.src), n) } } function ieOnEnd(n, e) { n.onreadystatechange = function () { "complete" != this.readyState && "loaded" != this.readyState || (this.onreadystatechange = null, e(null, n)) } } window.setRelStylesheet = function (n) { function e() { this.rel = "stylesheet" } var o = document.getElementById(n); o.addEventListener ? o.addEventListener("load", e, !1) : o.onload = e }, window._loaded = !1, window.loadJSDeferred = function (n, e) { function o() { window._loaded = !0; var o = document.createElement("script"); o.src = n, e && (("onload" in o ? stdOnEnd : ieOnEnd)(o, e), o.onload || stdOnEnd(o, e)); var t = document.scripts[0]; t.parentNode.insertBefore(o, t) } window._loaded ? o() : window.addEventListener ? window.addEventListener("load", o, !1) : window.onload = o }; !function (a) { "use strict"; var b = function (b, c, d) { function e(a) { return h.body ? a() : void setTimeout(function () { e(a) }) } function f() { i.addEventListener && i.removeEventListener("load", f), i.media = d || "all" } var g, h = a.document, i = h.createElement("link"); if (c) g = c; else { var j = (h.body || h.getElementsByTagName("head")[0]).childNodes; g = j[j.length - 1] } var k = h.styleSheets; i.rel = "stylesheet", i.href = b, i.media = "only x", e(function () { g.parentNode.insertBefore(i, c ? g : g.nextSibling) }); var l = function (a) { for (var b = i.href, c = k.length; c--;)if (k[c].href === b) return a(); setTimeout(function () { l(a) }) }; return i.addEventListener && i.addEventListener("load", f), i.onloadcssdefined = l, l(f), i }; "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b }("undefined" != typeof global ? global : this); !function (a) { if (a.loadCSS) { var b = loadCSS.relpreload = {}; if (b.support = function () { try { return a.document.createElement("link").relList.supports("preload") } catch (b) { return !1 } }, b.poly = function () { for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) { var d = b[c]; "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null) } }, !b.support()) { b.poly(); var c = a.setInterval(b.poly, 300); a.addEventListener && a.addEventListener("load", function () { b.poly(), a.clearInterval(c) }), a.attachEvent && a.attachEvent("onload", function () { a.clearInterval(c) }) } } }(this); window._noPushState = false; window._noDrawer = false; </script>
-
-    <script> WebFontConfig = { google: { families: ['Roboto+Slab:700', 'Noto+Sans:400,400i,700,700i'] }, custom: { families: ['icomoon'], urls: ['/assets/icomoon/style.css'] } }; (function (d) { var wf = d.createElement('script'), s = d.scripts[0]; wf.src = "/assets/bower_components/webfontloader/webfontloader.js"; s.parentNode.insertBefore(wf, s); }(document)); </script>
-    <!--<![endif]--> <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i">
+    <script>
+        WebFontConfig = {
+            google: { families: ['Roboto+Slab:700', 'Noto+Sans:400,400i,700,700i'] },
+            custom: { families: ['icomoon'], urls: ['/assets/icomoon/style.css'] }
+        };
+        (function (d) {
+            var wf = d.createElement('script'),
+                s = d.scripts[0];
+            wf.src = "/assets/bower_components/webfontloader/webfontloader.js";
+            s.parentNode.insertBefore(wf, s);
+        }(document));
+    </script>
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i">
         <style>
             html {
-                /*font-family: Noto Sans, Helvetica, Arial, sans-serif, Arial*/
                 font-family: Optima, Candara, Calibri, Arial, sans-serif
             }
-
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            .h1,
-            .h2,
-            .h3,
-            .h4,
-            .h5,
-            .h6,
-            .heading {
-                /*font-family: Roboto Slab, Helvetica, Arial, sans-serif*/
+            h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {
                 font-family: Optima, Candara, Calibri, Arial, sans-serif
             }
         </style>
-        <!-- <link rel="stylesheet" href="/assets/icomoon/style.css"> -->
     </noscript>
     <style>
         * {
-            box-sizing: border-box
+            box-sizing: border-box;
         }
-
-        html,
-        body {
+        html, body {
             margin: 0;
-            padding: 0
+            padding: 0;
         }
-
         html {
             font-size: 16px;
-            line-height: 1.75
+            line-height: 1.75;
         }
-
         body {
             color: #444;
             background-color: #fff;
-            overflow-y: scroll
+            overflow-y: scroll;
         }
-
         a {
-            text-decoration: none
+            text-decoration: none;
         }
-
-        .lead {
-            margin-left: -1rem;
-            margin-right: -1rem
-        }
-
-        .content img,
-        .img {
+        .content img, .img {
             display: block;
             max-width: 100%;
             margin-bottom: 1rem;
-            border: none
+            border: none;
         }
-
-        .content img.lead,
-        .img.lead {
+        .content img.lead, .img.lead {
             max-width: calc(100% + 2rem);
-            width: calc(100% + 2rem)
+            width: calc(100% + 2rem);
         }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        .h1,
-        .h2,
-        .h3,
-        .h4,
-        .h5,
-        .h6 {
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
             font-weight: 700;
-            margin: 1rem 0 1rem
+            margin: 1rem 0;
         }
-
-        .heading {
-            font-weight: 700
-        }
-
-        h1,
-        .h1 {
-            font-size: 2rem;
-            line-height: 1.3
-        }
-
-        h2,
-        .h2 {
-            font-size: 1.5rem;
-            line-height: 1.4
-        }
-
-        h3,
-        .h3 {
-            font-size: 1.17em;
-            line-height: 1.5
-        }
-
         p {
             margin-top: 0;
-            margin-bottom: 1rem
+            margin-bottom: 1rem;
         }
-
-        p.lead {
-            padding: 0 1rem
-        }
-
-        ul,
-        ol,
-        dl {
+        ul, ol, dl {
             margin-top: 0;
-            margin-bottom: 1rem
+            margin-bottom: 1rem;
         }
-
-        ul,
-        ol {
-            padding-left: 1.25rem
+        ul, ol {
+            padding-left: 1.25rem;
         }
-
         hr {
             position: relative;
             margin: 1.5rem 0;
             border: 0;
-            border-top: 1px solid #eee
+            border-top: 1px solid #eee;
         }
-
         strong {
-            font-weight: 700
+            font-weight: 700;
         }
-
-        .hr {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 1rem;
-            margin-bottom: 2rem
-        }
-
-        h4,
-        h5,
-        h6,
-        .h4,
-        .h5,
-        .h6 {
-            margin-bottom: 0.5rem;
-            font-size: 1rem
-        }
-
-        table:not(.highlight) {
-            border-collapse: collapse;
-            margin-bottom: 2rem;
-            margin-left: -1rem
-        }
-
-        table:not(.highlight) td,
-        table:not(.highlight) th {
-            padding: .25rem .5rem;
-            border: 1px solid #eee
-        }
-
-        table:not(.highlight) td:first-child,
-        table:not(.highlight) th:first-child {
-            padding-left: 1rem
-        }
-
-        table:not(.highlight) td:last-child,
-        table:not(.highlight) th:last-child {
-            padding-right: 1rem
-        }
-
         .page {
             margin-bottom: 3em;
             margin-right: 0em;
-            width: 100%
+            width: 100%;
         }
-
-        .page li+li {
-            margin-top: .25rem
-        }
-
-        .page>header {
-            margin-bottom: 2rem
-        }
-
-        .page-title,
-        .post-title {
-            margin-top: 0
-        }
-
-        .post-date {
-            display: block;
-            margin-top: -0.5rem;
-            margin-bottom: 1rem;
-            color: #888
-        }
-
         .related-posts {
             padding-left: 0;
             list-style: none;
-            margin-bottom: 2rem
+            margin-bottom: 2rem;
         }
-
-        .related-posts>li,
-        .related-posts>li+li {
-            margin-top: 1rem
-        }
-
         .message {
             margin-bottom: 1rem;
             padding: 1rem;
             color: #666;
             background-color: rgba(0, 0, 0, 0.025);
             margin-left: -1rem;
-            margin-right: -1rem
+            margin-right: -1rem;
         }
-
         @media screen {
             body::before {
                 content: '';
@@ -282,122 +136,67 @@
                 position: absolute;
                 left: 0;
                 top: 0;
-                bottom: 0
+                bottom: 0;
             }
         }
-
         @media screen and (min-width: 42em) {
             html {
-                font-size: 17px
+                font-size: 17px;
             }
         }
-
         @media screen and (min-width: 125em) {
             html {
-                font-size: 18px
+                font-size: 18px;
             }
         }
-
-        hy-push-state a,
-        .a {
-            position: relative;
-            padding-bottom: .15rem;
-            border-bottom: 1px;
-            transition: color 500ms, border-color 250ms
-        }
-
-        hy-push-state a:hover,
-        .a:hover {
-            text-decoration: none;
-            border-bottom: 1px solid;
-            transition: color 500ms, border-color 50ms
-        }
-
-        hy-push-state a.no-hover,
-        .a.no-hover {
-            border-bottom: none;
-            /*padding-bottom: none;*/
-            transition: none
-        }
-
-        hy-push-state a.no-hover:hover,
-        .a.no-hover:hover {
-            transition: none
-        }
-
-        .content .img {
-            overflow: hidden;
-            background-color: rgba(0, 0, 0, 0.025)
-        }
-
-        .content .img img {
-            margin: 0;
-            width: 100%;
-            height: 100%
-        }
-
         .fade-in {
             animation-duration: 500ms;
             animation-name: fade-in;
-            animation-fill-mode: forwards
+            animation-fill-mode: forwards;
         }
-
         @keyframes fade-in {
             from {
                 transform: translateY(-3rem);
-                opacity: 0
+                opacity: 0;
             }
-
             50% {
                 transform: translateY(-3rem);
-                opacity: 0
+                opacity: 0;
             }
-
             to {
                 transform: translateY(0);
-                opacity: 1
+                opacity: 1;
             }
         }
-
         .fl {
-            float: left
+            float: left;
         }
-
         .fr {
-            float: right
+            float: right;
         }
-
         .mb05 {
-            margin-bottom: 0.5rem
+            margin-bottom: 0.5rem;
         }
-
         .mb4 {
-            margin-bottom: 4rem
+            margin-bottom: 4rem;
         }
-
         .mb6 {
-            margin-bottom: 6rem
+            margin-bottom: 6rem;
         }
-
         .mt0 {
-            margin-top: 0
+            margin-top: 0;
         }
-
         .mt3 {
-            margin-top: 1rem
+            margin-top: 1rem;
         }
-
         .mt4 {
-            margin-top: 4rem
+            margin-top: 4rem;
         }
-
         .pb0 {
-            padding-bottom: 0
+            padding-bottom: 0;
         }
-
-        /*add+=======================*/
         .sidebar-social {
-            text-align: center; /* Center-align the contents */
+            text-align: center;
         }
         .sidebar-social ul {
             padding: 0;
@@ -405,845 +204,52 @@
         }
         .sidebar-social ul li {
             display: inline-block;
-            margin: 0 10px; /* Adjust margin as needed */
+            margin: 0 10px;
         }
-
-
-        .clearfix,
-        .sidebar-social::after,
-        .clearafter::after {
+        .clearfix, .sidebar-social::after, .clearafter::after {
             content: "";
             display: table;
-            clear: both
+            clear: both;
         }
-
         .sr-only {
-            display: none
+            display: none;
         }
-
         .sidebar {
             color: rgba(255, 255, 255, 0.75);
-            text-align: left
+            text-align: left;
         }
-
         .sidebar a {
             color: #fff;
-            border-bottom-color: rgba(255, 255, 255, 0.2)
+            border-bottom-color: rgba(255, 255, 255, 0.2);
         }
-
         @media (max-width: 992px) {
             .sidebar {
                 display: none;
             }
         }
-
         hy-drawer {
             position: relative;
-            padding: 1rem 0
+            padding: 1rem 0;
         }
-
         @media screen {
             hy-drawer {
-                padding: 2rem 1rem
+                padding: 2rem 1rem;
             }
         }
-
-        @media screen and (min-width: 64em) {
-            hy-drawer {
-                position: fixed;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                width: 18rem;
-                margin-left: 0
-            }
+        @media screen and (min-width: 20rem) {
+        hy-drawer {
+        padding: 3rem 1rem;
         }
-
-        @media screen and (min-width: 98.5em) {
-            hy-drawer {
-                width: calc(50% - 28rem)
-            }
         }
-
-        .sidebar-bg {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background: #202020 center / cover
+        .hx-card {
+        position: relative;
+        border-radius: 0.25rem;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        padding: 0.5rem;
         }
-
-        .sidebar-bg::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.05)
-        }
-
-        .sidebar-sticky {
-            position: relative;
-            z-index: 3
-        }
-
-        @media screen {
-            .sidebar-sticky {
-                position: absolute;
-                right: 1.5rem;
-                left: 1.5rem;
-                bottom: 1rem
-            }
-        }
-
-        @media screen and (min-width: 98.5em) {
-            .sidebar-sticky {
-                left: auto;
-                width: 15rem
-            }
-        }
-
-        .sidebar-about>h1 {
-            color: #fff;
-            font-size: 2rem
-        }
-
-        .sidebar-nav>ul {
-            list-style: none;
-            padding-left: 0;
-            margin-bottom: .5rem
-        }
-
-        a.sidebar-nav-item {
-            display: block;
-            font-weight: 700;
-            line-height: 1.75;
-            padding: .25rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2)
-        }
-
-        .sidebar-social {
-            margin-bottom: .5rem
-        }
-
-        .sidebar-social>ul {
-            list-style: none;
-            padding-left: 0
-        }
-
-        .sidebar-social>ul>li {
-            float: left
-        }
-
-        .sidebar-social>ul>li>a {
-            display: inline-block;
-            text-align: center;
-            font-size: 1.5rem;
-            width: 3rem;
-            height: 3.5rem;
-            padding: 0
-        }
-
-        .sidebar-social>ul li+li {
-            margin-top: 0
-        }
-
-        .fixed-top {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 2
-        }
-
-        .navbar>.content {
-            padding-top: 0;
-            padding-bottom: 0;
-            min-height: 0;
-            height: 0;
-            color: #888
-        }
-
-        .nav-btn-bar {
-            margin-left: -.875rem
-        }
-
-        .nav-btn {
-            display: inline-block;
-            padding: 1.75rem .875rem;
-            border-bottom: none;
-            color: #888 !important
-        }
-
-        @media screen and (min-width: 64em) {
-            #_menu {
-                position: absolute;
-                left: -9999px
-            }
-        }
-
-        .content {
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 5rem 1rem 12rem
-        }
-
-        @media screen {
-            .content {
-                padding-left: 1.5rem;
-                max-width: 38rem;
-                min-height: 100vh
-            }
-        }
-
-        @media screen and (min-width: 54em) {
-            .content {
-                max-width: 60rem
-            }
-        }
-
-        @media screen and (min-width: 64em) {
-            .content {
-                margin-left: 22rem;
-                margin-right: 0rem;
-                padding-left: 5rem
-            }
-        }
-
-        @media screen and (min-width: 90em) {
-            .content {
-                max-width: 60rem
-            }
-        }
-
-        @media screen and (min-width: 98.5em) {
-            .content {
-                margin: auto
-            }
-        }
-
-        .avatar {
-            float: right;
-            width: 15rem;
-            height: 15rem;
-            border-radius: 30%;
-            margin-left: 2rem;
-            position: relative;
-            z-index: 1
-        }
-
-        @media screen and (min-width: 42em) {
-            .avatar {
-                width: 22.5%;
-                height: auto
-            }
-        }
-
-        @media screen and (max-width: 42em) {
-            .avatar {
-                width: 22.5%;
-                height: auto
-            }
-        }
-
-        html {
-            /*font-family: Helvetica, Arial, sans-serif*/
-            font-family: Optima, Candara, Calibri, Arial, sans-serif
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        .h1,
-        .h2,
-        .h3,
-        .h4,
-        .h5,
-        .h6,
-        .heading {
-            /*font-family: Helvetica, Arial, sans-serif*/
-            font-family: Optima, Candara, Calibri, Arial, sans-serif
-        }
-
-        .layout-resume h1 {
-            display: inline-block;
-            margin-bottom: .25rem
-        }
-
-        .layout-resume .avatar {
-            margin-top: .5rem
-        }
-
-        .layout-resume header>p {
-            margin-bottom: 0
-        }
-
-        .layout-resume .subline {
-            margin-top: 0
-        }
-
-        .layout-resume .h4 {
-            margin-top: 0;
-            font-family: unset !important;
-            font-weight: 700;
-            width: 100%
-        }
-
-        .layout-resume .bc {
-            color: #444
-        }
-
-        .layout-resume .bold {
-            font-weight: 700
-        }
-
-        .layout-resume .tags {
-            list-style: none;
-            padding-left: 0;
-            margin: 0 -.625rem 1.5rem;
-            clear: right
-        }
-
-        .layout-resume .tag {
-            border: 1px solid #ddd;
-            display: inline-block;
-            margin: .25rem .125rem;
-            padding: .125rem .5rem;
-            color: #666;
-            line-height: 1.4
-        }
-
-        .layout-resume .help {
-            cursor: help
-        }
-
-        .layout-resume .symbol {
-            float: right;
-            color: #ddd;
-            margin-top: 4px;
-            margin-left: .5rem
-        }
-
-        .layout-resume .contact {
-            margin-top: 2.5rem
-        }
-
-        .layout-resume .contact dl:first-child {
-            margin-bottom: 0
-        }
-
-        .layout-resume .contact dt,
-        .layout-resume .contact dd {
-            margin-bottom: .5rem
-        }
-
-        .layout-resume .contact dt {
-            clear: both;
-            float: left;
-            width: 2rem
-        }
-
-        .layout-resume .contact dt [class*="icon-"] {
-            font-size: 1.17rem;
-            position: relative;
-            top: 2px
-        }
-
-        .layout-resume .contact dd {
-            float: left;
-            margin-left: 0;
-            width: calc(100% - 2rem);
-            padding-left: .25rem
-        }
-
-        .layout-resume .reference {
-            margin-bottom: 1.5rem
-        }
-
-        .layout-resume .reference>footer {
-            margin-bottom: 0
-        }
-
-        .layout-resume .skills dt {
-            margin-bottom: 0
-        }
-
-        .layout-resume .skills dd {
-            margin: 0
-        }
-
-        .layout-resume .columns {
-            width: 100%;
-            margin-top: 3em
-        }
-
-        .layout-resume .columns::after {
-            content: "";
-            display: table;
-            clear: both
-        }
-
-        .layout-resume .columns .message {
-            width: calc(100% + 2rem);
-            padding-right: 1rem
-        }
-
-        .layout-resume .column {
-            float: left;
-            padding-left: 2.5rem;
-            width: 100%
-        }
-
-        .layout-resume .column .column-3-5 {
-            width: 100%
-        }
-
-        @media screen and (min-width: 54em) {
-            .layout-resume .columns {
-                width: 100%
-            }
-        }
-
-        @media screen and (min-width: 64em) {
-            .layout-resume .columns {
-                width: 100%
-            }
-        }
-
-        @media screen and (min-width: 73.5em) {
-            .layout-resume .columns {
-                width: 100%
-            }
+        .hx-card h2, .hx-card .h2 {
+        margin-top: 0;
         }
     </style>
-    <!-- <link id="_stylePreload" rel="preload" as="style" href="/assets/css/hydejack-7.4.1.css"> -->
-    <script>window.setRelStylesheet('_stylePreload');</script> <noscript>
-        <!-- <link rel="stylesheet" href="/assets/css/hydejack-7.4.1.css"> -->
-    </noscript>
-    <style id="_pageStyle">
-        .content a:not(.btn) {
-            color: #1b67e0;
-            border-color: rgba(27, 103, 224, 0.2)
-        }
+</head>
 
-        .content a:not(.btn):hover {
-            border-color: #1b67e0
-        }
-
-        :focus {
-            outline-color: #1b67e0
-        }
-
-        .btn-primary {
-            color: #fff;
-            background-color: #1b67e0;
-            border-color: #1b67e0
-        }
-
-        .btn-primary:focus,
-        .btn-primary.focus {
-            box-shadow: 0 0 0 3px rgba(27, 103, 224, 0.5)
-        }
-
-        .btn-primary:hover,
-        .btn-primary.hover {
-            color: #fff;
-            background-color: #1757be;
-            border-color: #1757be
-        }
-
-        .btn-primary:disabled,
-        .btn-primary.disabled {
-            color: #fff;
-            background-color: #1b67e0;
-            border-color: #1b67e0
-        }
-
-        .btn-primary:active,
-        .btn-primary.active {
-            color: #fff;
-            background-color: #1757be;
-            border-color: #1757be
-        }
-
-        ::selection {
-            color: #fff;
-            background: #1b67e0
-        }
-
-        ::-moz-selection {
-            color: #fff;
-            background: #1b67e0
-        }
-
-        .icon-mail {
-            background: url('/assets/icons/mail.png') no-repeat center center;
-            width: 40px;
-            /* adjust as needed */
-            height: 40px;
-            /* adjust as needed */
-            background-size: cover;
-            display: inline-block;
-            vertical-align: middle;
-            /* any additional styling you want */
-        }
-
-        .icon-cv {
-            background: url('/assets/icons/cv.png') no-repeat center center;
-            width: 35px;
-            /* adjust as needed */
-            height: 35px;
-            /* adjust as needed */
-            background-size: cover;
-            display: inline-block;
-            vertical-align: middle;
-            /* any additional styling you want */
-        }
-
-        .icon-github {
-            background: url('/assets/icons/github.png') no-repeat center center;
-            width: 40px;
-            /* adjust as needed */
-            height: 40px;
-            /* adjust as needed */
-            background-size: cover;
-            display: inline-block;
-            vertical-align: middle;
-            /* any additional styling you want */
-        }
-
-        .icon-twitter {
-            background: url('/assets/icons/twitter.png') no-repeat center center;
-            width: 40px;
-            /* adjust as needed */
-            height: 40px;
-            /* adjust as needed */
-            background-size: cover;
-            display: inline-block;
-            vertical-align: middle;
-            /* any additional styling you want */
-        }
-
-        .icon-location {
-            background: url('/assets/icons/location.png') no-repeat center center;
-            width: 40px;
-            /* adjust as needed */
-            height: 40px;
-            /* adjust as needed */
-            /* any additional styling you want */
-        }
-
-        .info {
-            /*font-family: 'Times New Roman', Times, serif;*/
-            font-family: Optima, Candara, Calibri, Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-        /* Default font size for larger screens */
-        p.info {
-            font-size: 17px;
-        }
-
-        /* Adjust font size for smaller screens */
-        @media (max-width: 767px) {
-            p.info {
-                font-size: 14px;
-            }
-        }
-
-        /* Adjust font size for even smaller screens */
-        @media (max-width: 320px) {
-            p.info {
-                font-size: 12px;
-            }
-        }
-
-        table {
-            border: none;
-            border-collapse: separate;
-            border-spacing: 0;
-          }
-
-
-        .text {
-            text-align: justify;
-            max-width: 100%;
-            margin: 0 auto;
-            padding: 0 10px;
-        }
-    </style><!--<![endif]-->
-
-<style>
-body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
-}
-code {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 85%;
-}
-</style>
-
-<body>
-    <div class="navbar fixed-top">
-        <div class="content">
-            <div class="nav-btn-bar"> <span class="sr-only">Jump to:</span> <a id="_menu" class="nav-btn no-hover"
-                    href="#_navigation"> <span class="sr-only">Navigation</span> <span class="icon-menu"></span> </a>
-            </div>
-        </div>
-    </div><hy-push-state>
-        <main id="_main" class="content fade-in layout-resume" role="main" data-color="#1b67e0" data-theme-color=""
-            data-image="/assets/img/bar.jpeg" data-overlay>
-            <article class="page vcard h-card" role="article" vocab="http://schema.org/" typeof="Person">
-                <meta property="mainEntityOfPage" content="https://xmhou2002.github.io/" />
-                <div class="about-paragraph" style="text-align: justify">
-                    <avatarimg> <img src="/assets/img/photo.jpeg" class="avatar photo u-photo" alt="Hi!"
-                            srcset="/assets/img/photo.jpeg 1x,/assets/img/photo.jpeg 2x"
-                            property="image" /> </avatarimg>
-                    <summary>
-<!-- ================================================================================================================================================================== -->
-<h2>Hi there👋 I'm Xinming,</h2>
-<p>third-year undergrad student studying AI at
-    <strong>Gaoling School of Artificial Intelligence (<a
-            href="http://ai.ruc.edu.cn/english/index.htm">GSAI</a>)</strong>, <strong>Renmin University of China
-                (RUC)</strong>, Beijing.
-</p>
-<p>
-    I am advised by <strong><a
-        href="https://scholar.google.com/citations?user=JNhNacoAAAAJ">
-        Prof. Wayne Xin Zhao</a></strong> at RUC <strong><a
-        href="http://aibox.ruc.edu.cn/">AI BOX</a></strong>.😃
-
-</p>
-
-
-<p class="info"> <span>
-<!-- <img src="/assets/icons/location.png">  -->
-    Info: <a href="mailto:sherman.hou@gmail.com">Email</a> / <a
-        href="/assets/XinmingHou_CV.pdf">CV</a> /
-    <a href="https://twitter.com/XinmingHou">Twitter</a> /
-    <a href="https://github.com/xmhou2002">GitHub</a>
-</span></p>
-
-            <style>
-                .research-intrests-heading {
-                    font-weight: bold;
-                    color: #ffa700;
-                    /*text-decoration: underline;*/
-                }
-            </style>
-            <style>
-                .research-goal-heading {
-                    font-weight: bold;
-                    color: #4b2e83;
-                    /*text-decoration: underline;*/
-                }
-            </style>
-<h2 class="research-intrests-heading">Research Interests</h2>
-                        <p>
-                            I am deeply interested in the intersection of <strong>NLP, social science,</strong> and <strong>neuroscience</strong>. Recently, I have become particularly fascinated by the similarities and differences in the <strong>working mechanisms and characteristics of human cognition and NLP models</strong>. My focus is on combining insights from neuroscience with mechanisms discovered in NLP models to gain a deeper understanding of both fields.
-                        </p>
-
-<h2 class="research-goal-heading">Research Goal</h2>
-            <p>
-                My research goal is to <strong>enhance the explainability of AI systems</strong>. Specifically, I aim to investigate the intricate relationships among <strong>"language"</strong>, <strong>"reasoning"</strong>, and <strong>"knowledge"</strong> within NLP models.
-            </p>
-
-            <p>
-                Ultimately I hope to:
-            </p>
-            <ul>
-                <li>Illuminate the <strong>path toward AGI</strong> in the NLP field, enabling more feasible implementation pathways as well as more precise control and alignment of NLP models.</li>
-                <li>Explore technological pathways for efficiently integrating AI capabilities with the human brain and societal structures <strong>at a deeper and more neuroscience-informed level</strong>, fostering seamless human-AI collaboration.</li>
-            </ul>
-
-
-<h2 style="font-weight: bold;color: #ae0b2a;text-decoration:none;text-decoration: underline;">Publications</h2>
-    <a href="https://arxiv.org/abs/2406.13381" style="font-size: 20px;color: #8C1515;"><strong>CoAct: A Global-Local Hierarchy for Autonomous Agent Collaboration</strong></a><br>
-    <strong>Xinming Hou</strong>, Mingming Yang, Wenxiang Jiao, Xing Wang, Zhaopeng Tu, Xin Zhao.
-    <p><em>In submission to The 2024 Conference on Empirical Methods in Natural Language Processing, 2024</em> </p>
-                        <br>
-<h2 style="font-weight: bold;color: #0A568B;text-decoration:none;">Research Experience</h2>
-
-<table style="border-collapse: collapse; width: 100%;">
-    <tbody>
-        <tr>
-            <td style="width: 18%; text-align: center; vertical-align: middle;">
-                <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                    <img width="70" src="assets/img/aibox.png">
-                </div>
-            </td>
-            <td style="padding-left: 30px; text-align: left; vertical-align: middle;">
-                <p>
-                    <span style="color: #0A568B; font-weight: bold;">[Jul. 2022 - Present]</span>@<a href="http://aibox.ruc.edu.cn/"style="font-weight: bold;">RUC AI BOX</a>, Research Assistant, advised by
-                    <a href="https://scholar.google.com/citations?user=JNhNacoAAAAJ" style="font-weight: bold;">Prof. Wayne Xin Zhao</a>
-
-                </p>
-                <ul>
-                    <li><strong>Research Topics:</strong> natural language processing, explainability</li>
-                    <li>Delved into topics related to knowledge discernment and memory management to enhance factuality control of language models.</li>
-                    <li>Built a self-improvement framework in various complex cognitive and reasoning tasks, and explored the universal pipeline for building user-friendly prompts, incorporating various ICL methods.</li>
-                    <li>Exploring Transformer mechanisms at the neuronal level, inspired by the language networks' behaviors and characteristics in the human brain, aiming to investigate LLMs’ multilingual capabilities and reasoning mechanisms.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-        <tbody>
-        <tr>
-            <td style="width: 18%; text-align: center; vertical-align: middle;">
-                <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                    <img width="70" src="assets/img/ailab.png">
-                </div>
-            </td>
-            <td style="padding-left: 30px; text-align: left; vertical-align: middle;">
-                <p>
-                    <span style="color: #0A568B; font-weight: bold;">[Jul. 2023 - Jun. 2024]</span>@<a href="https://ai.tencent.com/ailab/nlp/en/index.html"style="font-weight: bold;">Tencent AI Lab</a>, Research Intern, advised by
-                    <a href="https://scholar.google.com/citations?user=CvtODukAAAAJ&hl=zh-CN"style="font-weight: bold;">Wenxiang Jiao</a> and <a href="https://scholar.google.com/citations?user=6AqRKa0AAAAJ&hl=en"style="font-weight: bold;">Xing Wang</a>
-
-                </p>
-                <ul>
-                    <li><strong>Research Topics:</strong> the self-organization and humanity of multi-agents system</li>
-                    <li>Explored the potential of transferring human societal work patterns to AI systems.
-                    <li>Investigated efficient and flexible collaboration methods for LLM agents to enhance real-world complex task handling capabilities.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-
-
-
-<h2>Education</h2>
-
-<table style="border-collapse: collapse; width: 100%;">
-    <tbody>
-        <tr>
-            <td style="padding: 3px; width: 18%; text-align: center; vertical-align: middle;">
-                <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                    <img width="70" src="assets/img/ruc.png">
-                </div>
-            </td>
-            <td style="padding-left: 30px;  text-align: left;vertical-align: middle;">
-                <strong>Renmin University of China (RUC)</strong><br>
-                <a href="http://ai.ruc.edu.cn/english/index.htm"; style=" font-weight: bold;">Gaoling School of Artificial Intelligence</a><br>
-                B.E. in <strong>Artificial Intelligence </strong> with honors
-                <br>• Sept. 2021-Jun. 2025 (Expected)
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-                        <h2 id="selected-honors-and-awards">Selected Honors and Awards</h2>
-                        <li><strong>Finalist</strong>, Mathematical Contest in Modeling (top 2%), 2023</li>
-                        <li><strong>National First Prize</strong>, National College Student Mathematical Modeling
-                            Competition (top 0.60%), 2022</li>
-
-
-
-
-                    </summary>
-                </div>
-
-            </article>
-            <footer role="contentinfo">
-                <hr />
-                <p><small class="info">©2024 Xinming Hou </small>
-                    <hr class="sr-only" />
-            </footer>
-                <tr style="padding:0px">
-                    <br>
-<!--       <td style="padding:2.5%;width:20%;vertical-align:middle">-->
-<!--        <div class="page__footer">-->
-<!--          <footer> &lt;!&ndash; start custom footer snippets &ndash;&gt;-->
-<!--            <a href="/sitemap/">Sitemap</a>-->
-<!--            &lt;!&ndash; end custom footer snippets &ndash;&gt;-->
-<!--            <div class="page__footer-copyright">-->
-<!--              <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RRYJAqTmg7edblbSoQMXX-ezSZpxGzFVHyOh_OhIpAc&cl=ffffff&w=a"></script>-->
-<!--            </div>-->
-<!--          </footer>-->
-<!--        </div>-->
-<!--      </td>-->
-<td style="padding:2.5%;width:40%;vertical-align:middle">
-  <div class="page__footer">
-    <footer> <!-- start custom footer snippets -->
-      <a href="/sitemap/">Sitemap</a>
-      <!-- end custom footer snippets -->
-      <div class="page__footer-copyright">
-        <div id="clustrmaps-container" style="width:600px; height:600px;  text-align: left;vertical-align: middle;overflow:hidden;">
-          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RRYJAqTmg7edblbSoQMXX-ezSZpxGzFVHyOh_OhIpAc&cl=ffffff&w=a"></script>
-        </div>
-      </div>
-    </footer>
-  </div>
-</td>
-    </tr>
-        </main><hy-drawer>
-            <header id="_sidebar" class="sidebar" role="banner">
-                <div class="sidebar-bg" style="background-image:url(/assets/img/bar.jpeg)">
-                </div>
-                <div class="sidebar-sticky">
-                    <div class="sidebar-about">
-                        <h2 class="h1"><a href="/">Xinming Hou</a></h2>
-                        <p class=""><strong> ❤️️Tech & Warmth</strong>
-                    </div>
-                    <!-- <nav class="sidebar-nav heading" role="navigation"> <span class="sr-only">Navigation:</span> -->
-                    <!-- <ul> -->
-                    <!-- <li> <a id="_navigation" href="/publications/" class="sidebar-nav-item"> Publication </a> -->
-                    <!-- <li> <a href="/experience/" class="sidebar-nav-item"> Experience </a> -->
-                    <!-- </ul> -->
-                    <!-- </nav> -->
-                    <div class="sidebar-social"> <span class="sr-only">Social:</span>
-                        <ul>
-                            <li> <a href="mailto:sherman.hou@gmail.com" title="Email" class="no-mark-external"> <span
-                                        class="icon-mail"></span> <span class="sr-only">Email</span> </a>
-                            <li> <a href="/assets/XinmingHou_CV.pdf" title="CV" class="no-mark-external"> <span
-                                        class="icon-cv"></span> <span class="sr-only">CV</span> </a>
-                            <li> <a href="https://github.com/xmhou2002" title="GitHub" class="no-mark-external">
-                                    <span class="icon-github"></span> <span class="sr-only">GitHub</span> </a>
-                                <!-- <li> <a href="https://scholar.google.com/citations?user=qIBUK6sAAAAJ&hl=en"
-                                    title="Google Scholar" class="no-mark-external"> <span class="icon-google"></span> -->
-<!--                            <li> <a href="https://twitter.com/XinmingHou" title="Twitter" class="no-mark-external">-->
-<!--                                    <span class="icon-twitter"></span>-->
-<!--                                    <span class="sr-only">Twitter</span> </a>-->
-                        </ul>
-                    </div>
-<p style="text-align: center;margin-top:-8px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 156px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=XinmingHou&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1706734206165" data-screen-name=""></iframe><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-            </header>
-
-        </hy-drawer>
-    </hy-push-state>
-    <script> window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date; ga('create', 'UA-123964276-1', 'auto'); ga('send', 'pageview'); loadJSDeferred('https://www.google-analytics.com/analytics.js'); </script>
-
-    <script>loadJSDeferred('/assets/js/hydejack-7.4.1.js');</script> <!--<![endif]-->
-    <hr class="sr-only" />
-    <h2 class="sr-only">Templates (for web app):</h2><template id="_animation-template">
-        <div class="animation-main fixed-top">
-            <div class="content">
-                <div class="page"></div>
-            </div>
-        </div>
-    </template> <template id="_loading-template">
-        <div class="loading"> <span class="sr-only">Loading…</span> <span class="icon-cog"></span></div>
-    </template> <template id="_error-template">
-        <div class="page">
-            <h1 class="page-title">Error</h1>
-            <p class="lead"> Sorry, an error occurred while loading <a class="this-link" href=""></a>.
-        </div>
-    </template> <template id="_back-template"> <a id="_back" class="back nav-btn no-hover"> <span
-                class="sr-only">Back</span> <span class="icon-arrow-left2"></span> </a> </template>
-
-
-
-
-</html>
